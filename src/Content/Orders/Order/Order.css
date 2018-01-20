@@ -1,0 +1,73 @@
+.Order-item {
+    width: 300px;
+    min-height: 100px;
+    height: 100px;
+    margin: 10px;
+    -webkit-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: white;
+    position: relative;
+}
+
+.Order-item:hover {
+    -webkit-box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.75);
+}
+
+.Order-item-img {
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Order-img {
+    height: 90px;
+}
+
+.Order-item-details {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.Order-item-details span {
+    text-align: center;
+}
+
+.Order-item-price {
+    height: 100px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: red;
+}
+
+.Order-item-remove {
+    position: absolute;
+    height: 18px;
+    top: 10px;
+    right: 10px;
+    color: rgb(104, 103, 103);
+    cursor: pointer;
+    text-align: center;
+}
+
+.Order-item-remove:hover {
+    color: rgb(148, 145, 126);
+}

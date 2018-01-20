@@ -1,0 +1,94 @@
+.Product {
+    width: 250px;
+    height: 300px;
+    margin: 50px;
+    -webkit-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+    border-radius: 15px;
+}
+
+.Inside-Product-Wrapper{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.Product:hover {
+    -webkit-box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.75);
+}
+
+.Product-title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0 0 10px 0;
+}
+
+.Product-link,
+.Product-link:active {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.Product-img {
+    display: block;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.Product-footer-wrapper{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Product-footer-left,
+.Product-footer-right{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.Product-price-count{
+    font-size: 18px;
+    color: rgb(189, 46, 46);
+    font-weight: bold;
+}
+
+.Product-btn-remove,
+.Product-btn-add {
+    color: white;
+    width: 25px;
+    height: 25px;
+    font-weight: bold;
+}
+
+.Product-btn-remove{
+    background-color: rgb(192, 54, 54);
+    border-radius: 12px 0 0 12px;
+}
+
+.Product-btn-order{
+    color: black;
+    width: 50px;
+    height: 25px;
+    background-color: rgb(212, 212, 212);
+}
+
+.Product-btn-add{
+    background-color: rgb(41, 196, 105);
+    border-radius: 0 12px 12px 0;
+}

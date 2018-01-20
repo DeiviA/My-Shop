@@ -1,0 +1,66 @@
+.Header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #d46f29;
+    color: white;
+    text-transform: uppercase;
+    z-index: 100;
+}
+
+.Header-item{
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header a{
+    color: white;
+    text-decoration: none;
+}
+
+.Logo-wrapper {
+
+}
+
+.Central-wrapper {
+
+}
+
+.Central-logo {
+    height: 100px;
+}
+
+.Menu-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Shopping-bag{
+    font-size: 30px;
+}
+
+.Shopping-bag:hover {
+    animation-name: move;
+    animation-duration: 0.3s;
+}
+
+@keyframes move {
+    0% { transform: rotate(0deg) }
+    25% { transform: rotate(7deg) }
+    50% { transform: rotate(0deg) }
+    75% { transform: rotate(7deg) }
+    100% { transform: rotate(0deg) }
+}
